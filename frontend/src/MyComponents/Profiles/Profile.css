@@ -1,0 +1,130 @@
+.title{
+  color: purple;
+  font-weight: 300;
+
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+}
+.heading{
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.main{
+
+    width: 90%;
+    height: 80%;
+    /* border-top: 3px solid plum;
+    border-bottom: 3px solid plum; */
+    box-shadow: 
+        inset 0px 20px 8px -10px rgb(221, 169, 221);
+        /* inset 0px -11px 17px -10px plum; */
+        background: linear-gradient(plum, #fff);
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+.btn{
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px 20px  20px 20px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+.selected_interest {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .remove_interest_icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+.selected_goal {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .remove_goal_icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #submitInfo {
+    background-color: #3498db;
+    border: none;
+    
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #submitInfo:hover {
+    background-color: #2980b9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  #submitInfo:active {
+    background-color: #1f618d;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+  }
