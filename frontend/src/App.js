@@ -11,6 +11,8 @@ import { Home } from './MyComponents/Home.js';
 import { Users } from './MyComponents/Chat/Users/Users.js';
 import { auth, db } from './firebase';
 import { useStateValue } from './MyContexts/StateProvider';
+import { Profile } from './MyComponents/Profiles/Profile.js';
+import { Offer } from './MyComponents/Offer/Offer';
 
 function App() {
 
@@ -58,6 +60,9 @@ function App() {
           <Route exact path='/chat/' element ={<Chat />}/>
           <Route exact path='/signup' element={<Signup />} />
           <Route exact path='/users' element={<Users />} />
+          <Route exact path='/' element={<Offer/>}/>
+          <Route exact path='/profile' element={<Profile/>}/>
+          <Route exact path='/chat/:username' element ={<Chat />}/>
         </Routes>
       </Router>
     </>

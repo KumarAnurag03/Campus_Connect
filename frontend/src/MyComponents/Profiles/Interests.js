@@ -1,0 +1,62 @@
+export const INTERESTS= [
+    {   
+        id:1,
+        name:"Exploring",
+        img:"🔎"
+    },
+    {   
+        id:2,
+        name:"Software Development",
+        img:"🧑‍💻"
+    },
+    {   
+        id:3,
+        name:"ML/AI",
+        img:"🤖"
+    },
+    {
+        id:4,
+        name:"Startups",
+        img:"⚒️"
+    },
+    {
+        id:5,
+        name:"Finance",
+        img:"💸"
+    },
+    {   
+        id:6,
+        name:"Product",
+        img:"🏎️"
+    },
+    {
+        id:7,
+        name:"Design",
+        img:"🎨"
+    },
+    {   
+        id:8,
+        name:"Consulting",
+        img:"👨‍💼"
+    },
+    {   
+        id:9,
+        name:"Web Development",
+        img:"💻"
+    }, 
+    {
+        id:10,
+        name:"Engineering",
+        img:"🧰"
+    },
+    {
+        id:11,
+        name:"Higher Studies",
+        img:"🎓"
+    },
+    {
+        id:12,
+        name:"Web 3.0",
+        img:"⚙️"
+    }
+]
