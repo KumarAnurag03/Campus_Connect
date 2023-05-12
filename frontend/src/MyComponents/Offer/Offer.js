@@ -34,30 +34,3 @@ export const Offer= ()=>{
     );
 
 }
-
-
-/*
-
- <div className="offer_main">
-        <h1>What We Offer</h1>
-        <p> some random text here not sure what to reite thats why  just filling up space. 
-        </p>
-     </div>
-     <div style={{ }}className="offer_body">
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <img src={require("./i1.webp")} alt="image1" style={{ width: '80%', height: '30vh' }} />
-        <p>Text for Image 1</p>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <img src={require("./i2.webp")}  alt="image2" style={{ width: '22vw', height: '30vh' }} />
-        <p>Text for Image 2</p>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <img src={require("./i3.webp")}  alt="image3" style={{ width: '22vw', height: '30vh' }} />
-        <p>Text for Image 3</p>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <p>Text for Image 4</p>
-      </div>
-    </div>
-*/
