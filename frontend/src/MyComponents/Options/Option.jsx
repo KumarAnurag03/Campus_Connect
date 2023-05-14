@@ -3,8 +3,11 @@ import "./Option.css";
 import {OPTIONS} from "./Option.js"
 
 
+
 export const Option = () => {
+ 
   return (
+ 
     <>
 
      <div className="options_container">

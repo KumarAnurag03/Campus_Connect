@@ -14,6 +14,7 @@ import { useStateValue } from './MyContexts/StateProvider';
 import { Profile } from './MyComponents/Profiles/Profile.js';
 import { Option} from './MyComponents/Options/Option.jsx';
 import { Offer } from './MyComponents/Offer/Offer';
+import { Navbar } from './MyComponents/Navbar/Navbar';
 
 function App() {
 
@@ -55,17 +56,22 @@ function App() {
 
   return (
     <>
+
       <Router>
+        <div>
+        <Navbar/>
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/chat/' element ={<Chat />}/>
           <Route exact path='/signup' element={<Signup />} />
           <Route exact path='/users' element={<Users />} />
-          <Route exact path='/' element={<Offer/>}/>
+          <Route exact path='/offer' element={<Offer/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/options' element={<Option/>}/>
           <Route exact path='/chat/:username' element ={<Chat />}/>
         </Routes>
+   
+        </div>
       </Router>
     </>
   );
